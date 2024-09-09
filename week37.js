@@ -110,3 +110,7 @@ console.log(listOfPhoneNumbers[2])
 console.log("Task: H");
 
 let peopleNames = [["Christian", "Simonsen"], ["Tony", "Bergholtz"]]
+for (tempArray = [], j = i = 1; i > -1; i--){
+    tempArray.push(peopleNames[i][j])
+    console.log(tempArray)
+}
