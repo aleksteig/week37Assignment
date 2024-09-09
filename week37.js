@@ -86,25 +86,23 @@ console.log("5673 + 234 = " + add(5673, 234));
 */
 console.log("Task: E");
 
-for (i = 2; i > 0; i--) {
-    
-
+for (let tempArray = [], i = 2; i > -1; i--) {
+    tempArray.push(people[i])
+    console.log(tempArray)
 }
-console.log(people)
-
 /*
     Task: F
     Declare a variable for a list of phone numbers. Your list should have at least 3 numbers. 
 */
 console.log("Task: F");
-
+listOfPhoneNumbers = [97812341, 91728365, 41728316]
 
 /*
     Task: G
     Print only the last phone number in your list from Task F
 */
 console.log("Task: G");
-
+console.log(listOfPhoneNumbers[2])
 /*
     Task: H
     Print only the last names of the people in the list, using a loop.
